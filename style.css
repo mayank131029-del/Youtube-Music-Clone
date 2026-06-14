@@ -18,6 +18,8 @@ body {
 }
 
 nav {
+    top: 0;
+    width: 100%;
     align-items: center;
     background-color: #202020;
     color: white;
@@ -186,13 +188,18 @@ nav ul li:hover {
 }
 
 main {
-    height: calc(100vh-86);
+    height: calc(100vh-86px);
     padding: 30px 10%;
     /* background-color: rgb(10, 10, 10); */
     gap: 100px;
     width: 100vw;
     justify-content: center;
     align-items: center;
+}
+
+.wrapper{
+    text-align: center;
+    width: 50%;
 }
 
 .song-poster {
@@ -205,11 +212,15 @@ main {
 }
 
 .song-poster img {
+    margin-bottom: 20px;
     /* height: 100%; */
     border-radius: 10px;
     width: 100%;
 }
 
+.song-poster .bar-song-title{
+    font-size: 20px;
+}
 .songs-list {
     flex-direction: column;
     gap: 10px;
@@ -221,6 +232,7 @@ main {
 .song {
     align-items: center;
     justify-content: space-between;
+
     width: 75%;
     gap: 20px;
     background-color: #202020;

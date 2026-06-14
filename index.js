@@ -17,7 +17,7 @@ let songs = [
     },
     {
         title: "ODNOGO ULTRAFUNK (Tiktok Remix)",
-        imgpath: "covers/4.jpg",
+        imgpath: "covers/9.webp",
         filepath: "songs/4.mp3"
     },
     {
