@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youbube Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flex">
+    <nav class="flex">
+        <ul class="flex">
+            <li class="logo"><img src="images/on_platform_logo_dark.svg" alt="youtube"></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+        <div class="signin"><button>Sign Up</button>
+        </div>
+    </nav>
+
+    <main id="container" class="container flex">
+        <div class="wrapper">
+            
+            <div class="song-poster">
+                <img class="song-cover-main" src="covers/1.jpg" alt="">
+                <div class="bar-song-title"></div>
+                
+            </div>
+            
+        </div>
+
+        <div class="songs-list flex "></div>
+
+    </main>
+
+
+    <div id="control-box" class="controls-box flex">
+        <input id="seekbar" class="progress" type="range" value="0">
+        <div class="second-box flex">
+            <div class="control-box flex">
+
+                <div class="previous">
+                    <img id="previous" class="icon" src="images/previous.svg">
+                </div>
+                <div class="play">
+                    <img id="play/pause" class="pp_icon" src="images/play.svg">
+
+                </div>
+                <div class="next">
+                    <img id="next" class="icon" src="images/next.svg">
+
+                </div>
+            </div>
+            <div class="song-details-box flex">
+                <img class="song-cover-c song-cover-main" alt="">
+                <span id="bar-song-title" class="bar-song-title"></span>
+
+            </div>
+
+            <div class="duration-box flex">
+                <input type="range" name="" id="volume" value="30">
+                <span id="bar-current-duration" class="song-duration">00:00</span>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="index.js"></script>
+
+</html>
