@@ -220,8 +220,7 @@ main {
 
 .song {
     align-items: center;
-    justify-content: start;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 75%;
     gap: 20px;
     background-color: #202020;
